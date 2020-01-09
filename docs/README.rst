@@ -1,7 +1,7 @@
 The documentation in this tree is in plain text files and can be viewed using
 any text file viewer.
 
-It uses `ReST`_ (reStructuredText), and the `Sphinx`_ documentation system.
+It uses ReST (reStructuredText) [1], and the Sphinx documentation system [2].
 This allows it to be built into other forms for easier viewing and browsing.
 
 To create an HTML version of the docs:
@@ -11,8 +11,7 @@ To create an HTML version of the docs:
 * In this docs/ directory, type ``make html`` (or ``make.bat html`` on
   Windows) at a shell prompt.
 
-The documentation in ``_build/html/index.html`` can then be viewed in a web
-browser.
+The documentation in _build/html/index.html can then be viewed in a web browser.
 
-.. _ReST: https://docutils.sourceforge.io/rst.html
-.. _Sphinx: http://sphinx-doc.org
+[1] http://docutils.sourceforge.net/rst.html
+[2] http://sphinx-doc.org/
